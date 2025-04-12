@@ -9,9 +9,14 @@ It's is a simple web application for creating and managing todo list. It allows 
 - **Responsive Design**: Compatible with various screen sizes for a seamless user experience.
 - **Intuitive Interface**: User-friendly dark minimal interface for easy task management.
 
-## Demo
+## Screenshots:
 
-[![Watch Demo](home.png)](https://drive.google.com/file/d/1I-HPuOqDDBJuwryYa0Ft6AVGr5TQp_ka/view?usp=drive_link)
+### Home Page:
+![Home Page](assets/home.png)
+
+### Task Lists:
+![To-Do](assets/img.png)
+
 
 ## Backend API Documentation
 
