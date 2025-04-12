@@ -1,0 +1,69 @@
+.about {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.about .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img {
+    width: 500px;
+}
+
+.about-img img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.about .container h1 {
+    font-family: "Merienda", sans-serif;
+    font-weight: bolder;
+    color: orchid;
+    font-size: 3.5rem;
+}
+
+.about .container p {
+    width: 85%;
+    font-weight: 500;
+    line-height: 2.2;
+    color: rgb(191, 191, 191);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .about .container {
+        width: 100%;
+    }
+
+    .about .container h1 {
+        font-size: 3rem;
+    }
+
+    .about .container p {
+        width: 100%;
+        padding: 10px;
+        font-size: 0.7rem;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-img img {
+        object-fit: contain;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .about .container  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
