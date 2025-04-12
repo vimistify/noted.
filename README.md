@@ -11,9 +11,7 @@ It's is a simple web application for creating and managing todo list. It allows 
 
 ## Screenshots
 
-![Home Page](https://i.ibb.co/wB4XCdf/screenshot-1.png)
-
-![Task List Page](https://i.ibb.co/qn1R4xc/screenshot-6.png)
+![Noted.](Noted/Noted..mp4)
 
 ## Backend API Documentation
 
