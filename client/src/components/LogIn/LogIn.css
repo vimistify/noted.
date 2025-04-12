@@ -1,0 +1,98 @@
+.log-in {
+    width: 100%;
+    height: auto;
+    /* margin-top: -50px; */
+}
+
+.log-in .log-in-left {
+    height: auto;
+}
+
+.log-in-left img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.log-in .log-in-right {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.log-in .log-in-right .input-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.input-group div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-group .react-icons {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.log-in-input input[type="text"],
+.log-in-input input[type="email"],
+.log-in-input input[type="password"] {
+    font-size: 0.9rem;
+    border: none;
+    border-bottom: 1px solid #555;
+    color: #fff;
+    outline: none;
+    padding: 10px 0;
+    background: transparent;
+    width: 100%;
+}
+
+.log-in-input input::placeholder {
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.log-in-input input[type="text"]:focus,
+.log-in-input input[type="email"]:focus,
+.log-in-input input[type="password"]:focus {
+    border-bottom-color: white;
+}
+
+.log-in .log-in-right p {
+    font-size: 0.9rem;
+}
+
+.log-in .log-in-right a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .log-in-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .log-in {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .log-in-left img {
+        object-fit: contain;
+        width: 80%;
+    }
+}
