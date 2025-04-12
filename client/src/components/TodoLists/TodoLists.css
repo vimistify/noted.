@@ -1,0 +1,186 @@
+.list {
+    min-height: 100vh;
+    max-height: auto;
+    width: 100%;
+    padding: 30px;
+    /* margin-top: -80px; */
+    position: relative;
+}
+
+.list .list-header h1 {
+    font-family: "Merienda", sans-serif;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: orchid;
+}
+
+.list .list-header h2 {
+    font-size: 1.2rem;
+    color: rgb(143, 143, 143);
+}
+
+.list-inputs input[type="text"],
+.list-inputs textarea {
+    font-size: 0.9rem;
+    border: none;
+    border-bottom: 1px solid #555;
+    color: #fff;
+    outline: none;
+    padding: 10px 0;
+    background: transparent;
+    width: 100%;
+}
+
+.list-inputs input::placeholder {
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.list-inputs input[type="text"]:focus,
+.list-inputs textarea:focus {
+    border-bottom-color: white;
+}
+
+.list-body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Todo List Box CSS */
+.todo-list-box {
+    position: relative;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    transition: 0.3s;
+    background-color: rgba(51, 51, 51, 0.7);
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.todo-list-body {
+    width: 100%;
+    text-wrap: wrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.todo-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-list-header h5 {
+    color: orchid;
+    font-weight: bold;
+}
+
+.todo-list-header .eye-button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.todo-list-box p {
+    color: rgb(153, 153, 153);
+    font-size: 0.8rem;
+    line-height: 1.8;
+}
+
+.todo-list-box:hover {
+    background-color: rgba(15, 15, 15, 0.5);
+}
+
+.todo-list-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-action-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo-list-footer button {
+    background-color: transparent;
+    color: white;
+    border: 0;
+    outline: 0;
+    transition: 0.3s;
+}
+
+.todo-list-footer button:hover {
+    color: rgb(153, 153, 153);
+}
+
+.footer-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+/* TodoList Update Div CSS */
+.list-update {
+    width: 60%;
+    max-width: 500px;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgb(40, 40, 40);
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(121, 121, 121, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+
+
+.list-update.show {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease, visibility 0s linear;
+}
+
+.todo-list-update h1 {
+    font-family: "Merienda", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: orchid;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .list-update {
+        width: 80%;
+    }
+
+    .todo-list-update h1 {
+        font-size: 2rem;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .list-update {
+        width: 70%;
+    }
+}
