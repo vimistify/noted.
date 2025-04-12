@@ -1,0 +1,49 @@
+.footer {
+    background-color: rgb(15, 15, 15);
+    border-top: 1px solid rgba(122, 122, 122, 0.3);
+}
+
+.footer-title a {
+    text-decoration: none;
+    color: orchid;
+    font-size: 1.5rem;
+    font-family: "Merienda", sans-serif;
+    font-weight: 800;
+}
+
+.footer-copyright {
+    font-size: 0.7rem;
+}
+
+.footer-copyright a {
+    text-decoration: none;
+    color: rgb(60, 181, 232);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #7c7c7c;
+    font-size: 0.8rem;
+    transition: .3s;
+}
+
+.social-links a:hover {
+    color: #d7d7d7;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+    }
+}
