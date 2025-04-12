@@ -11,7 +11,7 @@ It's is a simple web application for creating and managing todo list. It allows 
 
 ## Demo
 
-<video src="Noted..mp4" controls></video>
+[![Watch Demo](home.png)](https://drive.google.com/file/d/1I-HPuOqDDBJuwryYa0Ft6AVGr5TQp_ka/view?usp=drive_link)
 
 ## Backend API Documentation
 
