@@ -12,10 +12,10 @@ It's is a simple web application for creating and managing todo list. It allows 
 ## Screenshots:
 
 ### Home Page:
-![Home Page](assets/home.png)
+![Home Page](assets/home.PNG)
 
 ### Task Lists:
-![To-Do](assets/img.png)
+![To-Do](assets/img.PNG)
 
 
 ## Backend API Documentation
