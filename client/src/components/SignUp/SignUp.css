@@ -1,0 +1,106 @@
+.sign-up {
+    width: 100%;
+    height: auto;
+    /* margin-top: -50px; */
+}
+
+.sign-up .sign-up-left {
+    height: auto;
+}
+
+.sign-up-left img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.sign-up .sign-up-right {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sign-up .sign-up-right .input-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.input-group div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-group .react-icons {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.sign-up-input input[type="text"],
+.sign-up-input input[type="email"],
+.sign-up-input input[type="password"] {
+    font-size: 0.9rem;
+    border: none;
+    border-bottom: 1px solid #555;
+    color: #fff;
+    outline: none;
+    padding: 10px 0;
+    background: transparent;
+    width: 300px;
+}
+
+.sign-up-input input::placeholder {
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.sign-up-input input[type="text"]:focus,
+.sign-up-input input[type="email"]:focus,
+.sign-up-input input[type="password"]:focus {
+    border-bottom-color: white;
+}
+
+.sign-up .sign-up-right p {
+    font-size: 0.9rem;
+}
+
+.sign-up .sign-up-right a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .sign-up {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .sign-up-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .sign-up {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .sign-up-left img {
+        object-fit: contain;
+        width: 80%;
+    }
+}
