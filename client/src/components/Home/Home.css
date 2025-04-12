@@ -1,0 +1,46 @@
+.home {
+    height: 100vh;
+    width: 100%;
+    margin-top: -80px;
+}
+
+.home .container h1 {
+    font-family: "Merienda", sans-serif;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: orchid;
+    /* color: rgb(136, 0, 255); */
+    /* background: linear-gradient(180deg, #b300ff, #5c00be);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
+}
+
+.home .container h2 {
+    font-size: 1.5rem;
+}
+
+.home .container h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2;
+    color: rgb(143, 143, 143);
+}
+
+@media only screen and (max-width: 768px) {
+    .home .container h1 {
+        font-size: 3rem;
+    }
+
+    .home .container h2 {
+        font-size: 1rem;
+    }
+
+    .home .container h3 {
+        font-size: 1.2rem;
+    }
+
+    .homeBtn {
+        font-size: 0.9rem;
+    }
+}
