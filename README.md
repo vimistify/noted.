@@ -1,4 +1,4 @@
-# ListFlow
+# Noted.
 
 It's is a simple web application for creating and managing todo list. It allows users to create tasks with titles and descriptions, update existing tasks and delete tasks and provides a user friendly interface for organizing tasks and staying productive.
 
