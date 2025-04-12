@@ -9,9 +9,9 @@ It's is a simple web application for creating and managing todo list. It allows 
 - **Responsive Design**: Compatible with various screen sizes for a seamless user experience.
 - **Intuitive Interface**: User-friendly dark minimal interface for easy task management.
 
-## Screenshots
+## Demo
 
-![Noted.](Noted/Noted..mp4)
+<video src="Noted..mp4" controls></video>
 
 ## Backend API Documentation
 
